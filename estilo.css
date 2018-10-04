@@ -1,0 +1,23 @@
+input:hover{
+	color:#23B646;
+	background:#188EC0;
+	animation-name: abrir;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+input{
+
+	position:center;
+	margin:10px;
+	border:none;
+	width:100px;
+	padding:10px 10px;
+;
+}
+@keyframes abrir {
+  from {
+  	width:100px;
+  }
+  to {
+  	width:150px;
+}
